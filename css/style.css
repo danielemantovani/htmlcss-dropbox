@@ -10,6 +10,9 @@
     max-width: 100%;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* utilities */
 
@@ -17,12 +20,12 @@
     display: flex;
 }
 
-.w-80{
-    width: 80%;
-}
-
 .w-70{
     width: 70%;
+}
+
+.w-60{
+    width: 60%;
 }
 
 /* header */
@@ -46,9 +49,20 @@ header{
 
 /* main */
 
-.hero{
+/* hero */
+
+.hero-section{
     height: 600px;
     background-color: blueviolet;
     /* debug */
+    justify-content: center;
+    align-items: center;
 }
+
+.hero{
+    background-color: blanchedalmond;
+    height: 400px;
+}
+
+/* business */
 
