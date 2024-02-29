@@ -53,7 +53,7 @@ header{
 
 /* main */
 
-/* hero */
+/* ---hero--- */
 
 .hero-section{
     height: 600px;
@@ -68,7 +68,7 @@ header{
     /* debug */
 }
 
-/* business section */
+/* ---business section--- */
 
 .business-section{
     background-color: lightgreen;
@@ -124,4 +124,34 @@ header{
     height: 200px;
     /* debug */
 }
+
+/* ---partner Dropbox--- */
+
+.partner-dropbox{
+    background-color: aqua;
+    height: 500px;
+    /* debug */
+    align-items: center;
+}
+
+.container-img-text{
+    background-color: brown;
+    height: 400px;
+    /* debug */
+}
+
+.img-partner{
+    background-color: blue;
+    height: 400px;
+    /* debug */
+    width: 70%;
+}
+
+.text-partner{
+    background-color: red;
+    height: 400px;
+    /* debug */
+    width: 30%;
+}
+
 
