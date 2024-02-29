@@ -28,6 +28,10 @@ body{
     width: 60%;
 }
 
+.m-auto {
+    margin: 0 auto;
+}
+
 /* header */
 
 header{
@@ -55,14 +59,69 @@ header{
     height: 600px;
     background-color: blueviolet;
     /* debug */
-    justify-content: center;
-    align-items: center;
+    align-items: end;
 }
 
 .hero{
     background-color: blanchedalmond;
     height: 400px;
+    /* debug */
 }
 
-/* business */
+/* business section */
+
+.business-section{
+    background-color: lightgreen;
+    height: 1100px;
+    /* debug */
+    /* margin-top: 50px; */
+}
+
+/* title */
+
+.business-title{
+    background-color: burlywood;
+    height: 120px;
+    /* debug */
+}
+
+/* plans */
+
+.plans{
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    padding: 50px 0px;
+}
+
+.pro-plans{
+    height: 600px;
+    background-color: burlywood;
+    /* debug */
+    width: calc(100%/3);
+}
+
+.adv-plans{
+    height: 600px;
+    background-color: burlywood; 
+    /* debug */
+    width: calc(100%/3);
+}
+
+.ent-plans{
+    height: 600px;
+    background-color: burlywood;
+    /* debug */
+    width: calc(100%/3);
+}
+
+
+/* contact team */
+
+.contact-team{
+    background-color: burlywood;
+    height: 200px;
+    /* debug */
+}
 
