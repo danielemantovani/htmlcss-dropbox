@@ -201,23 +201,21 @@ header{
     height: 500px;
 }
 
+.box{
+    width: calc(100%/3);
+    height: 500px;
+}
 
-.box-1{
+.uno{
     background-color: aqua;
-    width: 500px;
-    height: 500px;
 }
 
-.box-2{
+.due{
     background-color: blueviolet;
-    width: 500px;
-    height: 500px;
 }
 
-.box-3{
+.tre{
     background-color: blanchedalmond;
-    width: 500px;
-    height: 500px;
 }
 
 /* ---free trial--- */
