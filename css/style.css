@@ -154,4 +154,40 @@ header{
     width: 30%;
 }
 
+/* info Dropbox operaions */
 
+.operations-section{
+    background-color: goldenrod;
+    height: 1100px;
+    /* debug */
+}
+
+.card-container{
+    background-color: grey;
+    height: 700px;
+    /* debug */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card{
+    height: 300px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    /* debug */
+    width: calc(100%/3 - 10px);
+}
+
+.container-n-utenti{
+    background-color: white;
+    height: 300px;
+}
+
+.n-utenti{
+    height: 300px;
+    background-color: navy;
+    /* debug */
+    width: 60%;
+}
