@@ -151,31 +151,12 @@ h1{
 
 /* ---partner Dropbox--- */
 
-.partner-dropbox{
-    background-color: aqua;
-    height: 500px;
-    /* debug */
-    align-items: center;
+.partner-text{
+    margin: 50px 30px;
 }
 
-.container-img-text{
-    background-color: brown;
-    height: 400px;
-    /* debug */
-}
-
-.img-partner{
-    background-color: blue;
-    height: 400px;
-    /* debug */
-    width: 70%;
-}
-
-.text-partner{
-    background-color: red;
-    height: 400px;
-    /* debug */
-    width: 30%;
+.partner-title{
+    margin-bottom: 40px;
 }
 
 /* ---info Dropbox operaions--- */
