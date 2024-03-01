@@ -14,6 +14,10 @@ ul{
     list-style-type: none;
 }
 
+a{
+    text-decoration: inherit;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -32,11 +36,44 @@ body{
     width: 60%;
 }
 
+.col-30{
+    width: 30%;
+}
+
+.col-70{
+    width: 70%;
+}
+
+.p-15{
+    padding: 15px;
+}
+
 .m-auto {
     margin: 0 auto;
 }
 
+.bg{
+    background-color:rgb(180 208 231);
+}
+
+.bg-btn{
+    background-color: rgb(0 97 255);
+    color: white;
+}
+
 /* header */
+
+header{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.header-bar li{
+    padding: 20px;
+}
 
 .header-bar{
     justify-content: space-between;
@@ -46,34 +83,30 @@ body{
 
 /* ---hero--- */
 
-.hero-section{
-    height: 600px;
-    background-color: blueviolet;
-    /* debug */
-    align-items: end;
+h1{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-size: 5rem;
 }
 
-.hero{
-    background-color: blanchedalmond;
-    height: 400px;
-    /* debug */
+.section-btn-hero{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.fa-down-long{
+    font-size: 3rem;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 /* ---business section--- */
 
-.business-section{
-    background-color: lightgreen;
-    height: 1100px;
-    /* debug */
-    /* margin-top: 50px; */
-}
-
 /* title */
 
 .business-title{
-    background-color: burlywood;
-    height: 120px;
-    /* debug */
+    font-size: 2rem;
+    margin-top: 50px;
 }
 
 /* plans */
