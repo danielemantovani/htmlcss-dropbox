@@ -54,6 +54,10 @@ p{
     padding: 15px;
 }
 
+.p-30{
+    padding: 30px;
+}
+
 .m-auto {
     margin: 0 auto;
 }
@@ -65,6 +69,7 @@ p{
 .bg-btn{
     background-color: rgb(0 97 255);
     color: white;
+    padding: 10px 10px;
 }
 
 .fs-2{
@@ -195,15 +200,26 @@ h1{
     margin-left: 15px;
 }
 
-
-
-
 /* contact team */
 
 .contact-team{
-    background-color: burlywood;
-    height: 200px;
-    /* debug */
+    border: 1px solid rgb(208 208 211);
+    margin-bottom: 100px;
+}
+
+.contact-title{
+    border: 1px solid rgb(208 208 211);
+    text-align: center;
+}
+
+.contact-btn{
+    justify-content: space-between;
+}
+
+.i-price{
+    padding: 0px 30px;
+    margin-bottom: 40px;
+    font-weight: bold;
 }
 
 /* ---partner Dropbox--- */
@@ -280,23 +296,42 @@ h1{
 
 /* ---free trial--- */
 
-.free-trial-section{
-    height: 300px;
+.free-trial{
+    justify-content: space-between;
     align-items: center;
-    position: relative;
+    padding: 100px 0px;
+}
+
+.free-trial-title{
+    color: rgb(97 8 43);
+    width: 45%;
 }
 
 .btn-trial{
-    position: absolute;
-    right: 200px;
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
 }
 
 /* ---faq--- */
 
 .faq{
-
-    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
+
+.faq-title{
+    margin-bottom: 50px;
+}
+
+.faq > hr{
+    width: 100%;
+}
+
+.question{
+    margin: 30px 0px;
+}
+
 
 /* ---footer--- */
 
