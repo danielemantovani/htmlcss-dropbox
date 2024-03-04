@@ -157,25 +157,26 @@ h1{
     padding: 50px 0px;
 }
 
-.pro-plan{
+.pro-plan, .adv-plan, .ent-plan{
     width: calc(100%/3);
     border: 1px solid rgb(208 208 211);
+    height: 800px;
 }
 
-.single-plan{
+.plan{
     display: block;
     width: 100%;
     border: 1px solid rgb(208 208 211);
     text-align: center;
 }
 
-.single-cost{
+.cost{
     display: block;
     padding: 20px;
     line-height: 30px;
 }
 
-.detail-single-plan{
+.detail-plan{
     display: block;
     margin-bottom: 30px;
 }
@@ -194,19 +195,7 @@ h1{
     margin-left: 15px;
 }
 
-.adv-plan{
-    height: 600px;
-    background-color: burlywood; 
-    /* debug */
-    width: calc(100%/3);
-}
 
-.ent-plan{
-    height: 600px;
-    background-color: burlywood;
-    /* debug */
-    width: calc(100%/3);
-}
 
 
 /* contact team */
