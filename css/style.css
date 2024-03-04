@@ -71,6 +71,14 @@ p{
     font-size: 2rem;
 }
 
+.fs-08{
+    font-size: 0.8rem;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
 .mb-20{
     margin-bottom: 20px;
 }
@@ -79,6 +87,13 @@ p{
     margin-bottom: 100px;
 }
 
+.d-block{
+    display: block;
+}
+
+.m-right{
+    margin-right: 5px;
+}
 
 /* header */
 
@@ -124,7 +139,12 @@ h1{
 /* title */
 
 .business-title{
-    margin-top: 50px;
+    padding: 40px 0;
+}
+
+.radio-btn{
+    text-align: left;
+    font-size: 0.9rem
 }
 
 /* plans */
@@ -137,21 +157,51 @@ h1{
     padding: 50px 0px;
 }
 
-.pro-plans{
-    height: 600px;
-    background-color: burlywood;
-    /* debug */
+.pro-plan{
     width: calc(100%/3);
+    border: 1px solid rgb(208 208 211);
 }
 
-.adv-plans{
+.single-plan{
+    display: block;
+    width: 100%;
+    border: 1px solid rgb(208 208 211);
+    text-align: center;
+}
+
+.single-cost{
+    display: block;
+    padding: 20px;
+    line-height: 30px;
+}
+
+.detail-single-plan{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.month{
+    display:block;
+    color: gray;
+}
+
+.free-30{
+    padding: 10px 40px;
+}
+
+.short-row{
+    width: 15%;
+    margin-left: 15px;
+}
+
+.adv-plan{
     height: 600px;
     background-color: burlywood; 
     /* debug */
     width: calc(100%/3);
 }
 
-.ent-plans{
+.ent-plan{
     height: 600px;
     background-color: burlywood;
     /* debug */
