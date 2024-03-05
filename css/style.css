@@ -80,6 +80,10 @@ p{
     font-size: 0.8rem;
 }
 
+.mt-20{
+    margin-top: 20px;
+}
+
 .mb-10{
     margin-bottom: 10px;
 }
@@ -271,42 +275,79 @@ h1{
     line-height: 45px;
 }
 
+.underline-link{
+    text-decoration: underline;
+}
+
 /* ---Dropbox clients--- */
-
-.clients-section img{
-    filter: invert(1);
-    width: 50%;
-}
-
-.designit{
-}
 
 .clients-section{
     margin-top: 200px;
 }
 
-.clients{
-    background-color: rgb(238, 7, 238);
+.clients-sx img{
+    filter: invert(1);
+}
+
+.clients-dx img{
+    filter: invert(1);
+}
+
+.square img{
+    max-width: 50%;
+}
+
+.square{
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients-sx, .clients-dx{
     flex-wrap: wrap;
 }
 
 .box{
     width: calc(100%/3);
-    flex-wrap: wrap;
 }
 
-.uno{
+.clients-sx, .clients-text, .clients-dx{
     aspect-ratio: 1;
 }
 
-.due{
-    background-color: blueviolet;
-    aspect-ratio: 1;
+.designit{
+    background-color:rgb(162 211 155);
+    border: 10px solid rgb(209 233 205);
 }
 
-.tre{
-    background-color: blanchedalmond;
-    aspect-ratio: 1;
+.arizona{
+    background-color: rgb(97 8 43);
+}
+
+.florida{
+    background-color: rgb(0 147 206);
+}
+
+.tops, .bycicle{
+    background-color: red;
+}
+
+.img-text{
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+.hearst{
+    background-color: rgb(180 208 231);
+}
+
+.lonely{
+    background-color: rgb(13 36 129);
+}
+
+.clear{
+    background-color: rgb(255 216 48);
 }
 
 /* ---free trial--- */
