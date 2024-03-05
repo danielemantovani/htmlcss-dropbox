@@ -386,6 +386,7 @@ h1{
 
 .question{
     margin: 30px 0px;
+    justify-content: space-between;
 }
 
 
